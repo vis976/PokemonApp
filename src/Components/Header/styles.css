@@ -1,9 +1,52 @@
 .container-header {
-  background-color: var(--card_gray);
-  color: white;
-  padding: 30px 0;
-  display: flex;
-  justify-content: space-around;
-  height: 100px;
+  display: grid;
+  width: 100%;
+  justify-content: space-between;
+  grid-template-columns: repeat(2,1fr);
+  background-color: rgb(221, 217, 212);
+  padding: 1rem;
+}
+.container-header>div>img{
+  background-color: black;
+  height: 45px;
+}
+.container-header>div>h2{
+ color: rgb(95, 94, 94);
+ font-size: 20px;
+}
+.right-box{
+  width: 95%;
   margin: auto;
+  justify-content: center;
+}
+.left-box{
+  width: 70%;
+  justify-content: right;
+}
+.right-box>input{
+  width: 75%;
+  height: 28px;
+  padding: 10px;
+  font-size: 16px;
+  font-family: sans-serif;
+}
+/* Table View */
+@media all and (min-width: 401px) and (max-width: 720px) {
+  .container-header {
+      display: grid;
+      grid-template-columns: repeat(1, 1fr);
+  }
+  .right-box{
+    width: 100%;
+    margin: auto;
+    justify-content: right;
+  }
+}
+
+/* Mobile View */
+@media all and (min-width: 81px) and (max-width: 400px) {
+  .container-header {
+      display: grid;
+      grid-template-columns: repeat(1, 1fr);
+  }
 }
