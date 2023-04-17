@@ -1,5 +1,4 @@
 import React from "react";
-
 const Pokeinfo = ({ data }) => {
    
     return (
@@ -7,7 +6,7 @@ const Pokeinfo = ({ data }) => {
         {
             (!data) ? "" : (
                 <>
-                    <h1>{data.name}</h1>
+                    <h1>{data.name}</h1> <h2>{data.id}</h2>
                     <img src={`https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/${data.id}.svg`} alt="" />
                     <div className="abilities">
                         {
@@ -41,3 +40,7 @@ const Pokeinfo = ({ data }) => {
     )
 }
 export default Pokeinfo
+
+
+
+

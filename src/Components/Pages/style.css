@@ -56,11 +56,69 @@
     background-color: #bb3043;
     border-radius: 7px;
 }
+
+.container-header {
+    display: grid;
+    width: 100%;
+    justify-content: space-between;
+    grid-template-columns: repeat(2,1fr);
+    background-color: rgb(221, 217, 212);
+    padding: 1rem;
+  }
+  .container-header>div>img{
+    background-color: black;
+    height: 45px;
+  }
+  .container-header>div>h2{
+   color: rgb(95, 94, 94);
+   font-size: 20px;
+  }
+  .right-box{
+    width: 95%;
+    margin: auto;
+    justify-content: center;
+  }
+  .left-box{
+    width: 70%;
+    justify-content: right;
+  }
+  .right-box>input{
+    width: 75%;
+    height: 28px;
+    padding: 10px;
+    font-size: 16px;
+    font-family: sans-serif;
+  }
+
+  /* Pokemon Info Page Style */
+
+  .detail-content{
+    display: contents;
+    border-radius: 0.5rem;
+    box-shadow: #4eee96;
+    border: 1px solid red;
+    justify-content: center;
+    padding: 1rem;
+    margin: auto;
+  }
+
+
+
+
 /* Table View */
 @media all and (min-width: 45px) and (max-width: 720px) {
     .left-content {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
+    }
+    .container-header {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .right-box{
+      width: 100%;
+      margin: auto;
+      justify-content: right;
     }
   }
   
@@ -70,4 +128,11 @@
         display: grid;
         grid-template-columns: repeat(1, 1fr);
     }
+    .container-header {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
   }
+
+
+
