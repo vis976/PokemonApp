@@ -31,7 +31,7 @@ Key Libs used in this React project are:
 | :-------------:|--------------|
 | [React](http://facebook.github.io/react/index.html) | A JavaScript library for building user interfaces. |
 | [CSS](https://react-bootstrap.github.io/) | The most popular front-end framework to give style for React. |
-| [Axios](https://github.com/axios/axios) | Promise based HTTP client for the browser and node.js |
+| [Axios](https://github.com/axios/axios) | Promise based HTTP client for the browser |
 
 # Functionalities
 
