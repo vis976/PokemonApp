@@ -11,7 +11,7 @@ const Pokemon = () => {
     const [pokeData, setPokeData] = useState([]);
     const [search, setSearch] = useState("")
     const [loading, setLoading] = useState(true);
-    const [url, setUrl] = useState("https://pokeapi.co/api/v2/pokemon?offset=20&limit=20")
+    const [url, setUrl] = useState("https://pokeapi.co/api/v2/pokemon?offset=0&limit=20")
     const [nextUrl, setNextUrl] = useState();
     const [prevUrl, setPrevUrl] = useState();
     const [pokeDex, setPokeDex] = useState();
