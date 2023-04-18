@@ -21,7 +21,7 @@
 
 # Demo
 
-[Pokedex ReactJs - Live ◀️](https://pokedex-up.netlify.app/)
+[Pokedex ReactJs - Live ◀️](https://velvety-eclair-79ee89.netlify.app/)
 
 ## Libs
 
@@ -35,9 +35,9 @@ Key Libs used in this React project are:
 
 # Functionalities
 
-- [Home (/)](https://pokedex-up.netlify.app/) - List **_pokemons_**, Seach with base in name , has pagination.
+- [Home (/)](https://velvety-eclair-79ee89.netlify.app/) - List **_pokemons_**, Seach with base in name , has pagination.
 
-- [Details (/details)](https://pokedex-up.netlify.app/details/bulbasaur) - Shows details (**_height, weight, abilities, stats, evolution etc..._**) about a specific pokemon.
+- [Details (/details)](https://velvety-eclair-79ee89.netlify.app/) - Shows details (**_height, weight, abilities, stats, evolution etc..._**) about a specific pokemon.
 
 
 ## Available Scripts
