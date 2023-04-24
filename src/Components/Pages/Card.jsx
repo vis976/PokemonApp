@@ -1,9 +1,6 @@
-import { Button, Modal, ModalBody, ModalCloseButton, ModalContent, ModalFooter, ModalHeader, ModalOverlay, useDisclosure } from "@chakra-ui/react";
 import React from "react";
 import Pokeinfo from "./Pokeinfo";
 const Card = ({ pokemon, loading,infoPokemon}) => {
-    const { isOpen, onOpen, onClose } = useDisclosure()
-   // console.log(pokemon);
     return (
         <>
         {
